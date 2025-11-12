@@ -1,4 +1,12 @@
 import {
+  createProject,
+  deleteProject,
+  getAllProjects,
+  getProject,
+  getProjectsByUserId,
+  updateProject,
+} from "../projects.ts";
+import {
   createUser,
   deleteUser,
   getAllUsers,
@@ -34,6 +42,8 @@ async function main() {
   //   const deletedUser = await deleteUser("parvej@drizzel.com");
   //   console.log("Delete User :", deletedUser);
   //
+  //   const projectsData = await getAllProjects();
+  //   console.log("Projects :", projectsData);
 }
 
 main();

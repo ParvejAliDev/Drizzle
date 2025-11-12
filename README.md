@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**A modern TypeScript-based Node.js application using Drizzle ORM with PostgreSQL for efficient user management.**
+**A modern TypeScript-based Node.js application using Drizzle ORM with PostgreSQL for efficient user and project management.**
 
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg?style=for-the-badge)](https://opensource.org/licenses/ISC)
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -74,6 +74,7 @@
 | Feature | Description |
 |:-------:|:------------|
 | 🔐 **User Management** | Complete CRUD operations for user management |
+| 📁 **Project Management** | Complete CRUD operations for project management |
 | 🗄️ **PostgreSQL Database** | Robust relational database with Drizzle ORM |
 | 🐳 **Docker Support** | Easy database deployment with Docker Compose |
 | 📘 **TypeScript** | Full type safety with strict type checking |
@@ -252,7 +253,7 @@ npm run format:check
 
 </div>
 
-> **ℹ️ Note**: The projects table schema exists in the database, but project CRUD operations are not yet implemented.
+> **ℹ️ Note**: Projects are linked to users via foreign key relationship. Deleting a user will cascade delete their projects.
 
 ---
 
