@@ -2,7 +2,7 @@
   "author": "Parvej Ali",
   "name": "drizzel",
   "version": "1.0.0",
-  "description": "",
+  "description": "TypeScript application with Drizzle ORM and PostgreSQL for efficient user and project management with CRUD operations",
   "license": "ISC",
   "private": true,
   "type": "module",
